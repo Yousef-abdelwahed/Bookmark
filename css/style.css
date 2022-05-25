@@ -1,0 +1,33 @@
+* {
+    font-family: arial;
+}
+.btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+.databox{
+    background-color: rgb(159, 223, 209);
+    border: none;
+    text-align: center;
+    padding: 30px;
+}
+.myList{
+    display: flex;
+    flex-direction: row;
+}
+
+.myboxlist{
+    background-image: linear-gradient(rgb(159, 226, 240),rgb(255, 255, 255));
+        margin: 10px 0;
+    padding: 20px;
+}
+
+.searchBox{
+    background-color: rgb(179, 253, 237);
+    
+
+}
