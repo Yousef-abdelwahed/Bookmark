@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+
+</head>
+<body >  
+  <button class=" btn btn-outline-info w-25 changeCol" id="changeCol"> night Mood</button>
+  <div class="container">  
+    <div class=" mx-auto">
+      
+         <h1 class="text-muted pt-5 " id="header">Bookmarker</h1>
+         <hr>
+       <div class=" databox text-center" id="databox">
+          <h3 class="pt-5">Bookmark your favorite sites</h3>
+
+          <label for="siteName" class="py-3">Site Name</label>
+          <input type="text"  id="siteName" class=" form-control" placeholder="Bookmark Name"required>
+          <div id="nameError"></div>
+          <label for="siteUrl"class="py-1">Site URL</label>
+          <input type="text" name="" id="siteUrl" class=" form-control" placeholder="Web URL" required>
+          <button class=" btn btn-outline-primary shadow-lg" id="addUrl" >submit</button>
+      </div>
+      <div class="searchBox mx-auto w-100 py-3 bg-opacity-75 " id="searchBox">
+        <label for="searchInput" class=" fw-bolder fs-4">search..</label>
+        <input type="text" class="form-control " onkey="searchList(this.value);" name="">
+      </div>
+    </div>
+    <div class="container " id="boxList">
+       
+        </div>
+    </div>
+    </div>
+</div>
+  
+  <script src="js.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
